@@ -1,0 +1,8 @@
+google-auth>=2.0.0
+google-auth-oauthlib>=1.0.0
+google-api-python-client>=2.90.0
+python-dotenv>=1.0.0
+google-cloud-aiplatform >= 1.132.0
+google-adk >= 1.17.0
+litellm>=1.83.0
+
