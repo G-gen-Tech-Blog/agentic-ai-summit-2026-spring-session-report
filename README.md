@@ -67,3 +67,24 @@ adk deploy agent_engine \
 
 > **本リポジトリはデモ・検証目的のコードです。本番環境での利用は想定していません。**
 > リトライ処理・エラーハンドリング・レート制限対策などの実装を含んでいないため、全社展開や業務利用を行う場合は十分な設計・テストを行ったうえでご利用ください。
+
+## ⚠️ LiteLLM Security Notice
+
+LiteLLM v1.82.7 / v1.82.8 は、サプライチェーン攻撃（TeamPCP）により侵害されました（2026年3月24日）。
+本リポジトリは v1.83.0（攻撃後の正規リリース、2026年3月31日公開）にピン留めしています。
+
+### ご利用前に必ず確認してください
+
+1. インストール後、`.pth` ファイルが存在しないことを確認：
+```bash
+   find $(python -c "import site; print(site.getsitepackages()[0])") -name "litellm_init.pth"
+```
+2. インストールされたバージョンが想定通りであることを確認：
+```bash
+   pip show litellm | grep Version
+```
+
+### 参考情報
+
+- [LiteLLM 公式セキュリティアップデート](https://docs.litellm.ai/blog/security-update-march-2026)
+- [GitHub Issue #24518（タイムライン）](https://github.com/BerriAI/litellm/issues/24518)
