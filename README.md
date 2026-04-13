@@ -10,11 +10,11 @@ Gemini Enterprise にデプロイをすることを想定しております。
 - 動画: https://youtu.be/j96tz3rCts8?si=rKo7WnTb8YqRBZyl
 - 登壇資料: https://services.google.com/fh/files/events/t2-s1_agentic-ai-summit26_spring.pdf
 
-📝 セッションレポート: 作成中<!-- TODO: ブログ公開後に共有予定 -->
+📝 セッションレポート: https://blog.g-gen.co.jp/entry/agentic-ai-summit-2026-spring-session-report
 
 ## 構成図
 
-![構成図](https://storage.googleapis.com/risa-publicbucket/agentic-ai-summit-demo.png)
+![構成図](https://cdn-ak.f.st-hatena.com/images/fotolife/g/ggen-sugimura/20260410/20260410090036.png)
 
 ## 特徴
 
